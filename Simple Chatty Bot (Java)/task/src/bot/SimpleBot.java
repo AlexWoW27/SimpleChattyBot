@@ -3,10 +3,10 @@ package bot;
 import java.util.Scanner;
 
 public class SimpleBot {
-    final static Scanner scanner = new Scanner(System.in); // Do not change this line
+    final static Scanner scanner = new Scanner(System.in); 
 
     public static void main(String[] args) {
-        greet("Aid", "2018"); // change it as you need
+        greet("Aid", "2023");
         remindName();
         guessAge();
         count();
@@ -54,7 +54,7 @@ public class SimpleBot {
         if (value == 1) {
             System.out.println("Please, try again.");
         } else if (value == 2) {
-            System.out.println("Congratulations, have a nice day!");
+            System.out.println("Great!");
         } else if (value == 3) {
             System.out.println("Please, try again.");
         } else if (value == 4) {
@@ -65,6 +65,6 @@ public class SimpleBot {
     }
 
     static void end() {
-        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+        System.out.println("Congratulations, have a nice day!"); 
     }
 }
