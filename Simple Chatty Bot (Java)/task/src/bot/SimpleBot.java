@@ -50,17 +50,16 @@ public class SimpleBot {
         System.out.println("2. To decompose a program into several small subroutines.");
         System.out.println("3. To determine the execution time of a program.");
         System.out.println("4. To interrupt the execution of a program.");
-        int value = scanner.nextInt();
-        if (value == 1) {
-            System.out.println("Please, try again.");
-        } else if (value == 2) {
-            System.out.println("Great!");
-        } else if (value == 3) {
-            System.out.println("Please, try again.");
-        } else if (value == 4) {
-            System.out.println("Please, try again.");
-        } else {
-            System.out.println("Please, try again.");
+        while (true) {
+            int value = scanner.nextInt();
+            if (value > 4) {
+                System.out.println("Please, try again.");
+            } else if (value != 2) {
+                System.out.println("Please, try again.");
+            } else {
+                System.out.println("Great!");
+                break;
+            }
         }
     }
 
