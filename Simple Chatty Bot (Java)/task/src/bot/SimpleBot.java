@@ -52,9 +52,7 @@ public class SimpleBot {
         System.out.println("4. To interrupt the execution of a program.");
         while (true) {
             int value = scanner.nextInt();
-            if (value > 4) {
-                System.out.println("Please, try again.");
-            } else if (value != 2) {
+            if (value != 2) {
                 System.out.println("Please, try again.");
             } else {
                 System.out.println("Great!");
