@@ -11,7 +11,6 @@ public class SimpleBot {
         guessAge();
         count();
         test();
-        end();
     }
 
     static void greet(String assistantName, String birthYear) {
