@@ -53,7 +53,7 @@ public class SimpleBot {
         while (true) {
             int value = scanner.nextInt();
             if (value != 2) {
-                System.out.println("Please, try again.");
+                end();
             } else {
                 System.out.println("Great!");
                 break;
